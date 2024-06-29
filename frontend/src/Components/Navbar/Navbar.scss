@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Rubik+Dirt&display=swap");
+$Primary_color: #efeff3;
+$Primary_color-1: #babccf;
+$Primary_color-2: #5e6062;
+$Primary_color-3: #131416;
+$Border_color: #bbc4de;
+$Primary_color-4: #303f4f;
+$Primary_color-6: #485ccb;
+
+@mixin flexCenter($drection, $justifyContent) {
+  display: flex;
+  flex-direction: $drection;
+  justify-content: $justifyContent;
+  align-items: center;
+}
+.Navbar {
+  background-color: rgb(255, 255, 255);
+  grid-area: Navbar;
+  padding: 0px 0px 5px 0px;
+  border-bottom: 1px solid $Border_color;
+  .Top-nav {
+    @include flexCenter(row, flex-start);
+    background: rgb(255, 255, 255);
+
+    .Brand {
+      font-family: "Rubik Dirt", cursive;
+      width: 15%;
+      color: $Primary_color-6;
+      font-size: 35px;
+      margin-left: 15px;
+    }
+    .Main-nav-item {
+      width: 50%;
+      ul {
+        @include flexCenter(row, flex-start);
+        gap: 15px;
+        margin-left: -35px;
+
+        li {
+          background-color: #efeff3;
+          border: none;
+          border-radius: 7px;
+          cursor: pointer;
+          list-style: none;
+          padding: 5px 10px;
+
+          a {
+            color: $Primary_color-4;
+            text-decoration: none;
+            font-weight: 600;
+
+            &:hover {
+              color: rgb(67, 142, 253);
+            }
+          }
+        }
+      }
+    }
+    .Sub-item {
+      width: 35%;
+      @include flexCenter(row,flex-end);
+      margin-right: 20px;
+      gap: 15px;
+
+      button {
+          background: transparent;
+          border: none;
+          color: $Primary_color-1;
+          font-size: 22px;
+          font-weight: 200;
+          cursor: pointer;
+      }
+
+      .user-btn {
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          cursor: pointer;
+
+      }
+  }
+  }
+}

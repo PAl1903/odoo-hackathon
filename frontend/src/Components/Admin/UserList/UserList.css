@@ -1,0 +1,70 @@
+
+
+.userList {
+  margin-top: 80px;
+  width: 100%;
+    background-color: #222831;
+  }
+  .userListUser {
+    display: flex;
+    align-items: center;
+  }
+  .userListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3591ca;
+    cursor: pointer;
+    color: #EEEEEE;
+    margin-right: 20px;
+  }
+  .userListDelete {
+    color: rgb(232, 70, 70);
+    cursor: pointer;
+  }
+    /* svg {
+     color: white;
+  } */
+
+  /* .css-ptiqhd-MuiSvgIcon-root{
+    color: white;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid white;
+    padding: 5px;
+    margin: 10px 25%;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: space-between;
+  }
+  input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #00ADB5;
+    width: 100%;
+  }
+  ::placeholder {
+    font-size: 14px;
+    color: #00ADB5;
+  }
+  .searchIcon {
+    right: 0;
+  }
+  
+  .css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+    color: white;
+  }
+
+ .MuiToolbar-root{
+  padding: 10px;
+ } */

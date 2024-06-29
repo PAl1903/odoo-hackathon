@@ -1,0 +1,36 @@
+* {
+  background-color:transparent
+}
+
+.img-wrapper {
+  margin: 0px;
+  padding-left: -50px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.img-wrapper .hand1 {
+  width: 340px;
+  height: 180px;
+}
+
+.img-wrapper .hand2 {
+  width: 350px;
+  height: 120px;
+  margin-left: 500px;
+}
+
+.img-wrapper .furniture {
+  margin: 10px 0px;
+  width: 370px;
+  height: 150px;
+}
+
+.img-wrapper .rentIt img {
+  width: 400px;
+  height: 400px;
+}

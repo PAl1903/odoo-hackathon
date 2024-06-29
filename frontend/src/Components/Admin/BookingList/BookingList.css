@@ -1,0 +1,45 @@
+.productList {
+  margin-top: 2.5vh;
+  width: 100%;;
+  }
+  
+  /* .productListItem {
+    display: flex;
+    align-items: center;
+  }
+  .productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .productListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .productListDelete {
+    color: rgb(232, 70, 70);
+    cursor: pointer;
+  }
+  .createProduct {
+    margin: 10px;
+    margin-left: 90%;
+    height: 5vh;
+  } */
+  
+  .css-1e2bxag-MuiDataGrid-root{
+    margin: 2.5vh;
+  }
+  /* .css-pdct74-MuiTablePagination-selectLabel{
+    margin-top: 10px;
+  } */
+
+  .MuiTablePagination-displayedRows{
+    margin-top: 10px;
+  } 

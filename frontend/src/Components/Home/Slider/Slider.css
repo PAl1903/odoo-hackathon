@@ -1,0 +1,60 @@
+.my-carousel-caption {
+  top: 50%;
+  transform: translate(-50%, -45%);
+  left: 50%;
+  position: absolute;
+  bottom: auto;
+  right: auto;
+  text-align: center;
+  color: white;
+}
+.carousel-button {
+  border-radius: 8px;
+  color: #eeeeee;
+  font-size: 1.2vmax;
+  padding: 1vmax 2vmax;
+  background-color: #0d6efd;
+  text-decoration: none;
+}
+.carousel-para{
+  font-size: 1rem;
+}
+.carousel-button:hover{
+  transition: .5s all ease-in-out;
+  background-color: #74b8e3;
+  color: black;
+  font-weight: 650;
+}
+
+.main-div{
+  height: 100%;
+}
+button{
+  font-size: 1vmax;
+}
+
+
+@media(width<=760px){
+
+  
+  .carousel-para{
+    font-size: .7rem;
+  }
+}
+@media(width<=650px){
+
+  
+  .carousel-para{
+    font-size: .6rem;
+  }
+
+}
+@media(width<=520px){
+
+  .carousel-para{
+   display: none;
+  }
+  .carousel-item{
+    height: 28vh;
+  }
+}

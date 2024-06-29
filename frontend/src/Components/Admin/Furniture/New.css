@@ -1,0 +1,146 @@
+.sidebar-container {
+  background-color: #222831;
+  width: 20vw;
+  height: inherit;
+  font-size: 20px;
+}
+
+.heading h2 {
+  margin: 5vh 2vw;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #087ac0;
+  font-family: "Open Sans", sans-serif;
+  border: 1.5px solid #087ac0;
+  text-decoration: dotted;
+  text-align: center;
+}
+.heading h2:hover {
+  border: 1.5px solid rgb(105, 213, 215);
+  text-decoration: dotted;
+  cursor: pointer;
+  color: #66b0e2;
+  text-shadow: 1px #222831;
+}
+.img-container {
+  width: 35vw;
+  margin: 0 2vw;
+}
+.create-info-div {
+  width: 45vw;
+}
+
+.create-img {
+  margin-top: 10vh;
+  height: 20vmax;
+  width: inherit;
+}
+
+.furniture-content-div {
+  display: flex;
+}
+
+.create-furniture-form {
+  margin: 5vh;
+  padding: 0.5rem 2rem;
+  min-height: 75vh;
+  background-color: #fdf7f7;
+  border: 2px #66b0e2;
+  /* overflow-y: scroll; */
+}
+
+.furniture-input {
+  width: 100%;
+  min-width: 120px;
+  border: 1.5px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 0.35rem;
+  margin: 0.6rem 0;
+  height: 5vh;
+  font-size: 17px;
+  font-weight: 570;
+  outline: 0;
+}
+
+.furniture-input-area {
+  height: 15vh;
+}
+
+.joint-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  margin-right: 10px;
+}
+
+.joint-div > div {
+  width: 8.5vw;
+  min-width: 150px;
+}
+
+.joint-div-furniture-input {
+  width: 100%;
+  border: 1.5px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 0.35rem;
+  margin: 0.6rem 0;
+  height: 5vh;
+  font-size: 17px;
+  font-weight: 570;
+  outline: 0;
+}
+
+.furniture-company-option {
+  width: 100%;
+  border: 1.5px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 0.35rem;
+  margin: 0.6rem 0;
+  font-weight: 570;
+  outline: 0;
+}
+
+.furniture-company-option > option {
+  height: inherit;
+  width: inherit;
+}
+
+.create-btn {
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #087ac0;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #fff;
+  letter-spacing: 00.09em;
+}
+
+.create-btn:hover {
+  background-color: #56a9e0;
+  transition: 1s all ease-in-out;
+  font-size: medium;
+}
+.new-furniture-feat-data {
+  margin-right: 6px;
+}
+
+.furniture-company-option:hover {
+  box-shadow: 0px 1.3px 0px 0px #cacbcb;
+  border-color: #087ac0;
+  transition: 0.6s all ease-out;
+}
+.furniture-input:hover {
+  box-shadow: 0px 1.3px 0px 0px #cacbcb;
+  border-color: #087ac0;
+  transition: 0.6s all ease-out;
+}
+.joint-div-furniture-input:hover {
+  box-shadow: 0px 1.3px 0px 0px #cacbcb;
+  border-color: #087ac0;
+  transition: 0.6s all ease-out;
+}

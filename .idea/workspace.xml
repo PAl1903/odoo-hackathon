@@ -4,7 +4,164 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde93f50-4f93-4666-b3ab-86adab283e82" name="Changes" comment="" />
+    <list default="true" id="cde93f50-4f93-4666-b3ab-86adab283e82" name="Changes" comment="Adding Backend and Frontend">
+      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/config.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/bookingController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/furnitureController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/authentication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/catchAsyncErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/passportAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/bookingModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/furnitureModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/userModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/receipt.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/bookingRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/furnitureRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/service/emailService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/service/pdfGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/errorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/titlelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Actions/adminActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Actions/bookingActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Actions/furnitureActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Actions/userActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/Counters/Counters.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/Counters/Counters.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/Testimonials/Testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/Testimonials/Testimonials.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/Testimonials/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AboutUs/bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/BookingList/BookingList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/BookingList/BookingList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Chart/Chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Chart/Chart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Dashboard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/FeaturedInfo/FeaturedInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/FeaturedInfo/FeaturedInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Furniture/New.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Furniture/New.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/FurnitureList/FurnitureList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/FurnitureList/FurnitureList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Sidebar/Sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/UserList/UserList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/UserList/UserList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Admin/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AnimateImg/AnimateImg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/AnimateImg/AnimateImg.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Bookings/Bookings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Bookings/Bookings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Card/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Card/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Community/Community.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Community/Community.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Community/Community.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Community/Community.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Contact/Contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Contact/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/CheckBox/CheckBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/CheckBox/CheckBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/FilterBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/FilterBox.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/RadioBtn/RadioBtn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FilterBox/RadioBtn/RadioBtn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FurnitureDetails/FurnitureDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/FurnitureDetails/FurnitureDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Furnitures/Furnitures.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Furnitures/Furnitures.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Featured/Featured.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Featured/Featured.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Slider/Slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Home/Slider/Slider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/LandingPage/Landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/LandingPage/Landing.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/LandingPage/Landing1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Login/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Login/MainContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/MyProfile/EditProfile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/MyProfile/EditProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Navbar/Navbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Navbar/Navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Services/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Services/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Services/Service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/Services/Service.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/SubNavbar/SubNavbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/SubNavbar/SubNavbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/SubNavbar/SubNavbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Components/SubNavbar/SubNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Reducers/BookingReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Reducers/FurnitureReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Reducers/UserReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Reducers/adminReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/create_furniture.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/furniture-img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/furniture.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/furniture1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/furniture2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/furniture3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/hand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/hand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/hand2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/img_back.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/img_back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/img_back_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/img_back_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/profilepic.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/rent_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/uimg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/furniture/app/backend/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/furniture/app/backend/BackendApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,31 +175,40 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iXFHBD8QZcIVAjl9DuyLvA2uqY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/meetghodasara/Desktop/odoo-hackathon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
       </set>
     </attachedChunks>
   </component>
@@ -54,11 +220,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719628925716</updated>
-      <workItem from="1719628927760" duration="1557000" />
+      <workItem from="1719628927760" duration="2702000" />
+      <workItem from="1719642691560" duration="45000" />
+      <workItem from="1719647023553" duration="612000" />
+      <workItem from="1719650631829" duration="752000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Springboot Template">
+      <option name="closed" value="true" />
+      <created>1719631018029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719631018029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Springboot Template" />
+    <MESSAGE value="Adding Backend and Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Backend and Frontend" />
   </component>
 </project>

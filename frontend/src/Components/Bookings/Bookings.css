@@ -1,0 +1,22 @@
+.productList {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.MuiTablePagination-selectLabel{
+  color: white;
+  margin-top: 10px;
+}
+.MuiSelect-select{
+  color: white;
+}
+.MuiTablePagination-select ,.MuiSelect-standard,.MuiInputBase-input,.css-194a1fa-MuiSelect-select-MuiInputBase-input{
+  color: white;
+}
+
+.MuiTablePagination-displayedRows ,.css-levciy-MuiTablePagination-displayedRows{
+  color: white;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root{
+  color: white;
+}

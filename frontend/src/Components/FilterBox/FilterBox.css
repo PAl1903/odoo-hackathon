@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Rubik+Dirt&display=swap");
+.FilterBox {
+  /* background-color: #3c3c3c; */
+  background-color: #222831;
+  width: 25%;
+  /* height: 100vh; */
+  height: inherit;
+  padding: 5px 15px;
+  margin: 7px;
+  border: none;
+  border-radius: 7px;
+  grid-area: FilterBox;
+  overflow-y: auto;
+}
+.FilterBox .Heading {
+  /* color: #ffa31a; */
+  color:white;
+  font-weight: 700;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-bottom: 2px solid #bbc4de;
+}
+.FilterBox .CheckBox-group .SubHeading {
+  color: #303f4f;
+  font-weight: 500;
+  margin: 0px 10px;
+  font-size: 18px;
+  border-bottom: 2px solid #bbc4de;
+}
+.FilterBox .CheckBox-group .CheckBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 7px 0px;
+  margin-left: 32px;
+}
+.FilterBox .CheckBox-group .CheckBox label {
+  font-size: 25px;
+  color: #131416;
+}

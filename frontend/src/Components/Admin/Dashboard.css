@@ -1,0 +1,82 @@
+/* .container {
+    display: flex;
+    background-color: black;
+    background-color: #222831;
+    color: white;
+    width: 100%;
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .css-levciy-MuiTablePagination-displayedRows {
+    color: #00ADB5;
+  }
+  
+  scroll bar
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #222;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #00ADB5;
+  
+    box-shadow: 0 -100vh 0 100vh #00ADB5;
+  }
+   */
+
+   /* .main-container2{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid white;
+   } */
+   /* .sidebar-container{
+    width: 20%;
+    padding: 1.3vmax;
+    height: 100vh;
+    border-right: 2px solid white;
+   } */
+
+
+   /* .container {
+    display: flex;
+    background-color: black;
+    background-color: #222831;
+    color: white;
+    width: 100%;
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .css-levciy-MuiTablePagination-displayedRows {
+    color: #00ADB5;
+  }
+  
+  scroll bar
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #222;
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #00ADB5;
+  
+    box-shadow: 0 -100vh 0 100vh #00ADB5;
+  }
+   */
+
+   .main-container2{
+    display: flex;
+    width: 100%;
+    border-top: 2px solid white;
+   }
+   .sidebar-container{
+    width: 20%;
+    padding: 1.3vmax;
+    /* height: 100vh; */
+    /* border-right: 2px solid white; */
+   }

@@ -1,0 +1,46 @@
+.counter {
+  /* position: relative; */
+  width: 100%;
+  margin: 25px 0px;
+}
+
+.counter-1,
+.counter-2 {
+  display: flex;
+  /* background-color: #3591ca; */
+}
+.count-1,
+.count-2,
+.count-3,
+.count-4 {
+  width: 50%;
+  text-align: center;
+  padding: 2vmax;
+}
+.count-1:hover,
+.count-2:hover,
+.count-3:hover,
+.count-4:hover {
+  background-color: #222831;
+}
+.count-1:hover>.number,
+.count-2:hover>.number,
+.count-3:hover>.number,
+.count-4:hover>.number {
+color: white;
+}
+.number {
+  font-weight: bolder;
+  font-size: 2.5vmax;
+  /* color: white; */
+  /* color: #3591ca; */
+  color: #222831;
+  display: inline-block;
+  white-space: nowrap;
+}
+.desc{
+  font-size: 1.5vmax;
+  font-weight: bold;
+  /* color: rgb(255, 255, 255); */
+  color: #3591ca;
+}

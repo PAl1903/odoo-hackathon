@@ -1,0 +1,42 @@
+.my-slider {
+    width: 59vmax;
+  }
+  .slider-div {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2vmax;
+    padding-bottom: 6vmax;
+    width: 100%;
+  }
+  .card-styles {
+    width: 18vmax;
+  }
+  .card-button {
+    border-radius: 8px;
+    color: #eeeeee;
+    font-size: 0.9vmax;
+    padding: 0.6vmax 1vmax;
+    background-color: #3591ca;
+    text-decoration: none;
+  }
+  .card-button:hover{
+      color: white;
+  }
+  .card-div{
+      display: flex;
+      justify-content: space-between;
+  }
+  .card-div2{
+  margin-top: 0.4vmax;
+  }
+  .card-div-h5{
+      font-size: 1.1vmax;
+  }
+  .card-div {
+    overflow: hidden;
+  }
+  .slick-slide a{
+    text-decoration: none;
+  }

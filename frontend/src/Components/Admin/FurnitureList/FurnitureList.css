@@ -1,0 +1,85 @@
+.furnitureList {
+  width: 100%;
+  margin: 2.5vh;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+.productListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.productListEdit {
+  border: none;
+  border-radius: 5px;
+  font-size: .8rem;
+  font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: #3591ca;
+  color: #EEEEEE;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.productListDelete {
+  color: rgb(232, 70, 70);
+  cursor: pointer;
+}
+.createProduct {
+  margin: 10px;
+  margin-left: 90%;
+  height: 5vh;
+}
+.MuiDataGrid-cell--textLeft{
+  font-size: .9rem;
+}
+.MuiDataGrid-columnHeaderTitleContainer{
+  font-size: 1rem;
+  font-weight: 800;
+}
+.MuiDataGrid-columnHeaderDraggableContainer{
+  width: fit-content;
+}
+
+.productAddButton{
+border-radius: 5px;
+border-color: #0d6efd;
+background-color:  #0d6efd;
+color: white;
+padding: 2px;
+/* font-weight: 700; */
+height: 4.7vh;
+width: fit-content;
+text-align: center;
+/* padding: 5px; */
+}
+
+.productAddButton:hover{
+background-color: #3480f3;
+transition: .5s all ease-in-out;
+}
+.css-h4y409-MuiList-root{
+
+border-radius: 3px;
+box-shadow: 1px 1px 1px 1px rgb(221, 223, 224);
+
+}
+
+.css-ptiqhd-MuiSvgIcon-root{
+
+  color: white;
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root{
+  color: white;
+}
+
+.main-container2{
+  background-color: #222831;
+}

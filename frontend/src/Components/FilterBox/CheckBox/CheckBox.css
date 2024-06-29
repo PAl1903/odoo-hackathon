@@ -1,0 +1,34 @@
+.checkbox-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: flex-start;
+    color: #ffffff;
+    
+}
+.checkbox-container .sub-heading {
+    /* background-color: #ffa31a; */
+    background-color: #3591ca;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 15px;
+    margin: 25px 0 0 8px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: none;
+}
+
+/* .checkbox-container .form-label {
+    color: #b82121;
+} */
+
+
+
+@media(width<=450px){
+    
+    .css-dmmspl-MuiFormGroup-root{
+        
+        display: inline-block;
+    }
+}
